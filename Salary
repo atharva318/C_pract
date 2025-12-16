@@ -1,0 +1,40 @@
+#include <stdio.h>
+struct EMPLOYEE
+{
+    char name[50];
+    char designation[50];
+    char gender[10];
+    char doj[20];
+    float salary;
+};
+int main()
+{
+    struct EMPLOYEE e;
+    printf("Name:-Mangesh Roll NO :- FIA23\nEnter Employee name:");
+    scanf("%s",e.name);
+    printf("Enter Designation:");
+    scanf("%s",e.designation);
+    printf("Enter Gender:");
+    scanf("%s",e.gender);
+    printf("Enter date of joining(DD/MM/YYYY):");
+    scanf("%s",e.doj);
+    printf("Enter Salary:");
+    scanf("%f",&e.salary);
+    printf("\n---Employee Details---\n");
+    printf("Name:%s\n",e.name);
+    printf("Designation:%s\n",e.designation);
+    printf("Gender:%s\n",e.gender);
+    printf("Date of Joining:%s\n",e.doj);
+    printf("Salary:%.2f\n",e.salary);
+    printf("\nUpdate Salary:");
+    scanf("%f",&e.salary);
+    printf("Update Designation:");
+    scanf("%s",e.designation);
+    printf("\n---Updated Employee Details---\n");
+    printf("Name:%s\n",e.name);
+    printf("Designation:%s\n",e.designation);
+    printf("Gender:%s\n",e.gender);
+    printf("Date of Joining:%s\n",e.doj);
+    printf("Salary:%.2f\n",e.salary);
+    return 0;
+}
