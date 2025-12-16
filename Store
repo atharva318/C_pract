@@ -1,0 +1,37 @@
+#include<stdio.h>
+struct STORE
+{
+    int code;
+    char name[20];
+    float price;
+};
+int main()
+{
+    struct STORE p[3]=
+    {
+    {101,"Pen",10},
+    {102,"Notebook",50},
+    {103,"Pencil",5}
+};
+int choice,qty;
+float total=0;
+printf("---PRODUCT LIST---\n");
+printf("Code Name       Price\n");
+printf("101 Pen            10\n");
+printf("102 Notebook       50\n");
+printf("103 Pencil         5\n");
+printf("\nEnter product code:");
+scanf("%d",&choice);
+ printf("Enter quantity:");
+    scanf("%d",&qty);
+    if(choice==p[0].code)
+    total+=p[0].price*qty;
+    else if(choice==p[1].code)
+    total+=p[1].price*qty;
+    else if(choice==p[2].code)
+    total+=p[2].price*qty;
+    else
+    printf("Invalid Code!\n");
+    printf("Total Bill=%.2f\n", total);
+      return 0;
+}
