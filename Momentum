@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h> 
+int main() 
+{
+    float mass, velocity, momentum , energy ,c ;
+    printf("enter mass of an object in kg\n:");
+    scanf("%f" , &mass);
+    printf("Enter velocity of an object in m/s\n:");
+    scanf("%f",&velocity);
+    momentum=mass*velocity ;
+    c=3*pow(10,8);
+    energy=mass*c*c;
+    printf("momentum of an object is : %2f kgm/s\n", momentum);
+    printf("energy of an object is : %2e joule \n",energy);
+    
+}
