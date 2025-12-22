@@ -1,9 +1,9 @@
-Square #include<stdio.h>
+#include<stdio.h>
 #include<math.h>
 int main()
 {
     int a , output;
-    printf("name: Mangesh , roll no : 23\n");
+
     printf("Enter the number :");
     scanf ("%d" , &a);
     output=a*a;
