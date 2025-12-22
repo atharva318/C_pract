@@ -6,5 +6,5 @@ int main ()
     int fact=1;
     for(i=1; i<=num; i++){
     fact=fact*i;}
-printf("name: Mangesh , roll no : 23\n%d",fact);
+printf("name:Trupti , roll no : 54\n%d",fact);
 }
