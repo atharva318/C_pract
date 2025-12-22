@@ -3,7 +3,6 @@
 int main()
 {
     int a , output;
-    printf("name: Mangesh , roll no : 23\n");
     printf("Enter the number :");
     scanf ("%d" , &a);
     output=sqrt(a);
