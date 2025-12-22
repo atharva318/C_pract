@@ -10,7 +10,7 @@ struct EMPLOYEE
 int main()
 {
     struct EMPLOYEE e;
-    printf("Name:-Mangesh Roll NO :- FIA23\nEnter Employee name:");
+    printf("Enter Employee name:");
     scanf("%s",e.name);
     printf("Enter Designation:");
     scanf("%s",e.designation);
