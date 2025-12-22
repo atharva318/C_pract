@@ -7,7 +7,7 @@ int main()
 {
  int Sub1, Sub2, Sub3, Sub4, Sub5, total;
  float per;
- printf(" code by:pranav vyawhare roll no:58\n Enter marks of 5 subjects:\n");
+ printf("Enter marks of 5 subjects:\n");
  scanf("%d %d %d %d %d", &Sub1, &Sub2, &Sub3, &Sub4, &Sub5);
 
 // Check pass or fail
