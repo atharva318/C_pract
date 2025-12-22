@@ -2,7 +2,7 @@
 int main()
 {
     int a,b,i,gcd,sd1,sd2;
-    printf("Name:-Mangesh Roll NO :- FIA23\nEnter two numbers:");
+    printf("Enter two numbers:");
     scanf("%d%d",&a,&b);
     for(i=2;i<=a;i++)
     {
